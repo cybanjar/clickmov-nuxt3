@@ -1,0 +1,30 @@
+/* Import Fonts External */
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+
+
+/* Export for use */
+
+@mixin poppins-r {
+    font: {
+        family: Poppins-Regular;
+        weight: 400;
+    }
+}
+
+@mixin poppins-m {
+    font: {
+        family: Poppins-Medium;
+        weight: 500;
+    }
+}

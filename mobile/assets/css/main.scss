@@ -1,0 +1,66 @@
+@use 'components/fonts';
+
+/* Import All Components */
+
+@import 'components/color';
+@import 'components/icons';
+@import 'components/typography';
+@import 'components/spacing';
+@import 'components/grid';
+@import 'components/icons';
+
+/* Import All Blocks */
+
+@import 'blocks/nav';
+@import 'blocks/sidebar';
+@import 'blocks/ads';
+@import 'blocks/content';
+
+/* Import For Spesific Browser */
+
+@import 'components/spesific_browser';
+
+/* Base style */
+
+*,
+*::before,
+*::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1.7rem;
+    background: #000000;
+    color: #FFFFFF;
+    @include fonts.poppins-r;
+}
+
+.clearfix,
+.clearfix:before,
+.clearfix:after {
+    clear: both;
+    content: '';
+    height: 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.content {
+    top: 60px;
+    position: relative;
+    padding: 20px;
+}

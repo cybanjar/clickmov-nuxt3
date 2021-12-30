@@ -1,0 +1,66 @@
+@mixin m($name, $sz, $nameP) {
+    #{$name} {
+        @if $nameP==mlr {
+            margin: 0px 5 * $sz+px !important;
+        }
+        @else if $nameP==mtb {
+            margin: 5 * $sz+px 0px !important;
+        }
+        @else {
+            #{$nameP}: 5 * $sz+px !important;
+        }
+    }
+}
+
+@mixin p($name, $sz, $nameP) {
+    #{$name} {
+        @if $nameP==plr {
+            padding: 0px 5 * $sz+px !important;
+        }
+        @else if $nameP==ptb {
+            padding: 5 * $sz+px 0px !important;
+        }
+        @else {
+            #{$nameP}: 5 * $sz+px !important;
+        }
+    }
+}
+
+
+/* Generate padding */
+
+@for $i from 0 through 5 {
+    @include p('.p'+ #{$i*5}, $i, 'padding');
+    @include p('.pt'+ #{$i*5}, $i, 'padding-top');
+    @include p('.pr'+ #{$i*5}, $i, 'padding-right');
+    @include p('.pb'+ #{$i*5}, $i, 'padding-bottom');
+    @include p('.pl'+ #{$i*5}, $i, 'padding-left');
+    @include p('.plr'+ #{$i*5}, $i, 'plr');
+    @include p('.ptb'+ #{$i*5}, $i, 'ptb');
+}
+
+// example Result: 
+//     padding: 5px, 
+//     padding-top: 5px, 
+//     padding-right: 5px, 
+//     padding-left: 5px, 
+//     padding-bottom: 5px, 
+
+/* Generate margin */
+
+@for $i from 0 through 5 {
+    @include m('.m'+ #{$i*5}, $i, 'margin');
+    @include m('.mt'+ #{$i*5}, $i, 'margin-top');
+    @include m('.mr'+ #{$i*5}, $i, 'margin-right');
+    @include m('.mb'+ #{$i*5}, $i, 'margin-bottom');
+    @include m('.ml'+ #{$i*5}, $i, 'margin-left');
+    @include m('.mlr'+ #{$i*5}, $i, 'mlr');
+    @include m('.mtb'+ #{$i*5}, $i, 'mtb');
+}
+
+// example Result: 
+//     margin: 5px, 
+//     margin-top: 5px, 
+//     margin-right: 5px, 
+//     margin-left: 5px, 
+//     margin-bottom: 5px,

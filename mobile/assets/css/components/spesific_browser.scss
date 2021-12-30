@@ -1,0 +1,10 @@
+/* Safari Only */
+
+@media not all and (min-resolution:.001dpcm) {
+    .top-playlist .item-list a .wrap-img-watermark {
+        bottom: 55px;
+    }
+    .top-playlist .item-list a h6 {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,212 @@
+{
+    "topPlaylist": [{
+            "id": 1,
+            "img": "/assets/images/top/kuliner.png",
+            "caption": "Suara Jelajah Makanan"
+        },
+        {
+            "id": 2,
+            "img": "/assets/images/top/music.png",
+            "caption": "Konser Musik Akustik"
+        },
+        {
+            "id": 3,
+            "img": "/assets/images/top/seleb.png",
+            "caption": "Eksklusif Interview Artis"
+        },
+        {
+            "id": 4,
+            "img": "/assets/images/top/backpack.png",
+            "caption": "Wisata Alam Eksotik"
+        }
+    ],
+    "linkIcon": [{
+            "img": "/images/icons/Icon_suara.png",
+            "label": "Suara.com",
+            "link": "https://suara.com/"
+        },
+        {
+            "img": "/images/icons/Icon_mata2.png",
+            "label": "Matamata.com",
+            "link": "https://www.matamata.com/"
+        },
+        {
+            "img": "/images/icons/Icon_sukabumi.png",
+            "label": "Sukabumiupdate.com",
+            "link": "https://sukabumiupdate.com/"
+        },
+        {
+            "img": "/images/icons/Icon_jabar.png",
+            "label": "Jabarnews.com",
+            "link": "https://jabarnews.com/"
+        },
+        {
+            "img": "/images/icons/Icon_hitekno.png",
+            "label": "Hitekno.com",
+            "link": "https://hitekno.com/"
+        },
+        {
+            "img": "/images/icons/Icon_medan.png",
+            "label": "Kabarmedan.com",
+            "link": "https://kabarmedan.com/"
+        },
+        {
+            "img": "/images/icons/Icon_jatim.png",
+            "label": "Beritajatim.com",
+            "link": "https://beritajatim.com/"
+        },
+        {
+            "img": "/images/icons/Icon_batam.png",
+            "label": "Batamnews.com",
+            "link": "https://batamnews.com/"
+        },
+        {
+            "img": "/images/icons/Icon_bolatimes.png",
+            "label": "Bolatimes.com",
+            "link": "https://bolatimes.com/"
+        },
+        {
+            "img": "/images/icons/Icon_suara.png",
+            "label": "Kalbar.suara.com",
+            "link": "https://kalbar.suara.com/"
+        },
+        {
+            "img": "/images/icons/Icon_riau.png",
+            "label": "Riauonline.co.id",
+            "link": "https://www.riauonline.co.id/"
+        },
+        {
+            "img": "/images/icons/Icon_maluku.png",
+            "label": "Terasmaluku.com",
+            "link": "https://terasmaluku.com/"
+        },
+        {
+            "img": "/images/icons/Icon_ayobandung.png",
+            "label": "Ayobandung.com",
+            "link": "https://ayobandung.com/"
+        },
+        {
+            "img": "/images/icons/Icon_solopos.png",
+            "label": "Solopos.com",
+            "link": "https://solopos.com/"
+        },
+        {
+            "img": "/images/icons/Icon_say.png",
+            "label": "Yoursay.suara.com",
+            "link": "https://yoursay.suara.com/"
+        }
+    ],
+    "category": [{
+            "img": "/images/category/news.png",
+            "caption": "News",
+            "link": "/news"
+        },
+        {
+            "img": "/images/category/entertaiment.png",
+            "caption": "Entertainment",
+            "link": "entertainment"
+        },
+        {
+            "img": "/images/category/sport.png",
+            "caption": "Sport",
+            "link": "sport"
+        },
+        {
+            "img": "/images/category/lifestyle.png",
+            "caption": "Lifestyle",
+            "link": "lifestyle"
+        },
+        {
+            "img": "/images/category/travel.png",
+            "caption": "Travel",
+            "link": "travel"
+        },
+        {
+            "img": "/images/category/otomotif.png",
+            "caption": "Otomotif",
+            "link": "otomotif"
+        },
+        {
+            "img": "/images/category/health.png",
+            "caption": "Health",
+            "link": "health"
+        }
+    ],
+    "popular": [{
+        "img": "/images/popular/popular.png",
+        "caption": "Sering Keluar Rumah dan Kunjungi Daerah",
+        "publishDate": 2
+    }],
+    "lifeStyle": [{
+        "img": "/images/lifestyle/lifestyle.png",
+        "caption": "Sering Keluar Rumah dan Kunjungi Daerah",
+        "publishDate": 2
+    }],
+    "news": [{
+        "img": "/images/news/rapid.png",
+        "caption": "Sering Keluar Rumah dan Kunjungi Daerah",
+        "publishDate": 2
+    }],
+    "iconsHeader": [{
+            "img": "/images/icons/Icon_Arkadia1.png",
+            "link": "https://arkadiacorp.com/"
+        },
+        {
+            "img": "/images/icons/Icon_suara.png",
+            "link": "https://suara.com/"
+        },
+        {
+            "img": "/images/icons/Icon_bolatimes.png",
+            "link": "https://bolatimes.com/"
+        },
+        {
+            "img": "/images/icons/Icon_hitekno.png",
+            "link": "https://hitekno.com/"
+        },
+        {
+            "img": "/images/icons/Icon_dewiku.png",
+            "link": "https://www.dewiku.com/"
+        },
+        {
+            "img": "/images/icons/Icon_mobimoto.png",
+            "link": "https://www.mobimoto.com/"
+        },
+        {
+            "img": "/images/icons/Icon_guideku.png",
+            "link": "https://www.guideku.com/"
+        },
+        {
+            "img": "/images/icons/Icon_Himedik.png",
+            "link": "https://www.himedik.com/"
+        },
+        {
+            "img": "/images/icons/Icon_serbada.png",
+            "link": "https://www.serbada.com/"
+        }
+    ],
+    "iconsHeaderRight": [{
+            "img": "/images/icons/Icon_FB.png",
+            "link": "https://www.facebook.com/suaradotcom"
+        },
+        {
+            "img": "/images/icons/Icon_IG.png",
+            "link": "https://instagram.com/suaradotcom"
+        },
+        {
+            "img": "/images/icons/Icon_Twitt.png",
+            "link": "https://twitter.com/suaradotcom"
+        },
+        {
+            "img": "/images/icons/Icon_Youtube.png",
+            "link": "https://www.youtube.com/user/suaradotcom"
+        }
+    ],
+    "profileSuara": {
+        "companyName": "PT. Arkadia Media Nusantara",
+        "address": "Jl. Mega Kuningan Timur Blok C6 Kav.9 Kawangan Mega Kuningan, Jakarta Selatan 12950, Indonesia",
+        "tel": "021-724 1888/ 021 - 720 8374",
+        "fax": "021-724 1887",
+        "email": "redaksi@suara.com",
+        "iklan": "sales@suara.com"
+    }
+}
